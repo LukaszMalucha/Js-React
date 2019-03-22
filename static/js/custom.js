@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    var url = 'http://hn.algolia.com/api/v1/search?query=data';
+    var url = 'https://hn.algolia.com/api/v1/search?query=data';
 
     $.getJSON(url, function(data){
 
