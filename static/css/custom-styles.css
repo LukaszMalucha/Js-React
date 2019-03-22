@@ -138,11 +138,29 @@ a {
 .card .card-content p {
     color: black;
     font-size: 12px;
-    min-height: 50px;
+    min-height: 25px;
 }
 
 .card .card-title {
     font-size: 1.4rem;
+    min-height: 70px;
+}
+
+.tweetQuote {
+    background: #4ab3f4;
+    border-radius: 15px;
+    color: white;
+    width: 20%;
+}
+
+.tweetQuote:hover,
+.tweetQuote:active {
+    background: #1DA1F2;
+    color: white;
+}
+
+.quoteAuthor {
+ color: #1DA1F2 !important;
 }
 
 
