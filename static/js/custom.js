@@ -20,8 +20,6 @@ $(document).ready(function() {
             $('.btn-enter').html('Next <i class="far fa-arrow-alt-circle-right"></i>');
         });
 
-//        console.log(quotes[0].title);
-//        console.log(data);
     })
 
 
